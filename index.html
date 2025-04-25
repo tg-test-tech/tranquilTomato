@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <title>Tranquil Tomato</title>
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="is-preload">
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Wrapper -->
+            <section id="wrapper">
+                <div class="inner">
+                    <h1>
+                        <b>Tranquil</b>Tomato
+                    </h1>
+                    <blockquote cite="https://www.huxley.net/bnw/four.html">
+                        <p id="postQuote"> Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced. </p>
+                        <footer id="zenAuthor"> —Aldous Huxley, <cite>Brave New World</cite>
+                        </footer>
+                    </blockquote>
+                    <ul class="actions">
+                        <li>
+                            <a href="#" id="zenquotes" class="button primary icon solid fa-random">New Quote</a>
+                        </li>
+                        <li>
+                            <a href="#" id="newbanner" class="button primary icon solid fa-random">New Image</a>
+                        </li>
+                    </ul>
+                    
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4PP3DA4J0N8?utm_source=generator" width="100%" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    
+                </div>
+            </section>
+            <!-- Banner -->
+            <section id="banner">
+                <div class="timer">
+                    <h2 id="timer-display">25:00</h2>
+                    <div>
+                        <button class="button primary" id="start-button">Start Work</button>
+                        <button class="button primary" id="reset-button">Reset All Progress</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Transition Modal -->
+        <div id="transition-modal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <p id="transition-message"></p>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script type="module" src="assets/js/src/main.js"></script>
+        <script type="module" src="assets/js/src/pomodoro.js"></script>
+        <script type="module" src="assets/js/src/zenquotes.js"></script>
+        <script type="module" src="assets/js/src/newbanner.js"></script>
+    </body>
+</html>
